@@ -1,0 +1,22 @@
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+button {
+  padding: 0px;
+  border: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}

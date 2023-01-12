@@ -1,0 +1,60 @@
+.portfolio-menu {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #ffffff;
+
+  &__title {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 34px;
+
+  &__item {
+    margin-right: 8px;
+    margin-bottom: 0px;
+  }
+  &__item:last-child {
+    margin-right: 0px;
+  }
+
+  &__btn {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    padding: 6px 22px;
+    min-width: 73px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__btn:hover {
+    background-color: var(--first-btn-background-color);
+    color: #ffffff;
+  }
+  &__btn:focus {
+    background-color: #f5f4fa;
+    color: #000;
+  }
+}
